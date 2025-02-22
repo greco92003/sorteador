@@ -66,7 +66,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="h-screen w-screen flex items-center justify-center bg-background text-foreground">
+    <div className="h-screen w-screen flex items-center justify-center bg-transparent text-foreground">
       <Card className="p-8 shadow-lg">
         <CardHeader>
           <h1 className="text-2xl font-bold mb-4 text-center">

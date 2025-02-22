@@ -123,11 +123,11 @@ const App: React.FC = () => {
 
           {/* Exibição dos ganhadores */}
           {!drawing && winners.length > 0 && drawTime && (
-            <div className="mt-4 text-center">
+            <div className="mt-1 text-center">
               <h2 className="text-xl font-bold">Ganhadores:</h2>
               <ul className="mt-2 space-y-1">
                 {winners.map((name, index) => (
-                  <li key={index} className="text-sm">
+                  <li key={index} className="text-4xl font-extrabold">
                     {name}
                   </li>
                 ))}
